@@ -1,1 +1,1 @@
-# esgi-javascript
+# esgi-javascript - Projet de cours
