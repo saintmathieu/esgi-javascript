@@ -3,8 +3,6 @@ function ucfirst(chaine) {
     return chaine.charAt(0).toUpperCase() + chaine.slice(1);
 }
 
-console.log(ucfirst('Bonjour la france'));
-
 
 
 function capitalize(chaine) {
@@ -15,9 +13,6 @@ function capitalize(chaine) {
    }
    return splitStr.join(' '); 
 }
-
-console.log(capitalize('Bonjour la france'));
-
 
 
 function camelCase(chaine) {
@@ -30,8 +25,6 @@ function camelCase(chaine) {
 
 }
 
-console.log(camelCase('Bonjour la france'));
-
 
 function snake_case(chaine) {
     if (typeof chaine !== "string" || chaine === "") return "";
@@ -39,18 +32,12 @@ function snake_case(chaine) {
     return splitStr.join('_'); 
 }
 
-console.log(snake_case('Bonjour la france'));
-
-
 
 function leet(chaine) {
     if (typeof chaine !== "string" || chaine === "") return "";
     let crypt = chaine.replace(/[aA]/g, '4').replace(/[eE]/g, '3').replace(/[iI]/g, '1').replace(/[oO]/g, '0').replace(/[uU]/g, '(_)').replace(/[yY]/g, '7');
     return crypt;
 }
-
-console.log(leet('anaconda'));
-
 
 
 
